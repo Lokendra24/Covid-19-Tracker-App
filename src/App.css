@@ -1,0 +1,68 @@
+.front_view{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.left_view{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  flex: 0.8;
+}
+
+body{
+  background-color: #f5f6fa;
+}
+.App__hader{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto; 
+  height: 55px;
+}
+
+
+.App__left{
+  display:flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.content_setup{
+  line-height: 0;
+}
+
+.design{
+  height: 120px;
+  width: 150px;
+}
+
+.map-section{
+   height: 400px;
+}
+
+.map .leaflet-container{
+  height: 370px;
+}
+
+.InfoBox{
+   flex: 1;
+}
+
+.InfoBox:not(:last-child){
+  margin-right: 15px;
+}
+.InfoBox__cases{
+  color: red;
+}
+
+.popup_setup img{
+  width: 130px;
+}
+
+.setup_space{
+  line-height: 0.5;
+}

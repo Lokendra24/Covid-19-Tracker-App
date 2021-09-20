@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+#map{
+    width: 60%;
+    height: 60vh;
+    position: relative;
+    left: 12.5%;
+    top: 150px;
+}
+
+.image{
+    width: 300px;
+}
